@@ -23,10 +23,13 @@ body {
   font-size: 22px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
-  color: rgba({{ site.text-color }}, .76);
+  color: rgba({{ site.text-color }}, .76);/*
   background-color: rgb({{ site.background-color }});
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100%;*/
+  background-color: #f2f4fc;
+  background-image: url("http://www.transparenttextures.com/patterns/purty-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 html, body {
   height: 100%;
@@ -240,12 +243,13 @@ hr {
   padding: 0 15px;
   max-width: 700px;
   min-height: 100%;
-  margin-bottom: -141px;
+  margin-bottom: -101px;
+  background-color:rgba(255,255,230,.8);
 }
 .wrap::after {
   content: "";
   display: block;
-  height: 141px;
+  height: 101px;
 }
 header {
   padding-top: 20px;
@@ -334,7 +338,9 @@ footer {
   text-align: center;
   background-color: rgba({{ site.text-color }}, 0.05);
   border-top: 1px solid rgba({{ site.text-color }}, 0.1);
-  height: 140px;
+  height: 100px;
+  margin: 0px 0px;
+  position: relative;
 }
 footer a {
   background-image: none;
@@ -405,6 +411,10 @@ nav a.current {
   }
   footer .inner {
     padding: 0 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
   }
   .subtitle,
   .fluid-width-video-wrapper,
@@ -413,8 +423,12 @@ nav a.current {
   pre,
   p,
   form {
-    margin: 40px 0;
+    /*margin: 40px 0;*/
   }
+  .p-footer{
+    margin: 0px 0px;
+  }
+
   ol, ul {
     padding-left: 50px;
   }

@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. Created for free and for fun by Stijn. Get the latest version at the [Github repository](https://github.com/steinvc/holo-alfa).
+Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT. She has an interest in power electronics, photography, electric vehicles, art, and history. 
 
 ---
 
