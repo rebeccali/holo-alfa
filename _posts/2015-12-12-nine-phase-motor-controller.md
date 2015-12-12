@@ -1,6 +1,6 @@
 ---
 title: Nine Phase Motor Controller
-cover-image: 
+cover-image: l3lb2.png
 tags: [projects]
 ---
 
@@ -23,9 +23,10 @@ Nine Phase is three three phase motor controllers, to control 3 brushless motors
 The [DVR8302][dvr] is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. 
 Because it's so complex, was a pain to work with. It's difficult to debug, hard to solder correctly without a microscope, and sometimes just exhibits off behavior due to current protection. It's worth the extra hassle in having a compact driver and the possibility of a fairly advanced controller.
 
-In later revisions, the controller will implement current sensing as well as proper overcurrent proteciton. For version one however, the goal was simply three turning motors. 
+In later revisions, the controller will implement current sensing as well as proper overcurrent protection. For version one however, the goal was simply three turning motors. 
 
 ![picture of board layout]({{ site.baseurl }}/img/ninephasev1.png) <small>Version 1 Layout, with the drain and source switched on the MOSFETs.</small>
+![picture of board]({{ site.baseurl }}/img/l3lb1.png) <small>Version 1 board</small>
 
 The first version worked with only two hand-soldered wires, working up to ~30V. Above 30V, the motor controller would explode from bus rail noise. But, it turned brushless motors as well as doing position control on a gearmotor. That means it works, right?
 
