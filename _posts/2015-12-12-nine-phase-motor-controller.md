@@ -8,7 +8,7 @@ Over the summer, I had the privilege of participating in the [PowerWheels Racing
 
 ![picture of car here]({{ site.baseurl }}/img/powerbarbie.jpg) <small>Barbie has more horsepower than you</small>
 
-The PowerWheels series consists of racing go-karts made out of these Fisher Price Power Wheels, for under $500. Recently, it graduated to turning the kid cars into *autonomous go-karts*, with a steering linkage driven by a servo and a very-not-cheap LIDAR camera. Not surprisingly, it is difficult to find a high current servo controller that isn't terribly expensive. All together, a go-kart driven off of brushless motors and a DC servo has 3 motor controllers, for a total of 8 half bridges.
+The PowerWheels series consists of racing go-karts made out of these Fisher Price Power Wheels, for under $500. Recently, it graduated to turning the kid cars into *autonomous go-karts*, with a steering linkage driven by a servo and a very-not-cheap LIDAR camera. Not surprisingly, it is difficult to find a high current servo controller that isn't terribly expensive. In addition to the servo, one also needs drive motors, throttle, etc which can builds up to a fair amount of electronics. All together, a go-kart driven off of brushless motors and a DC servo has 3 separate motor controllers, with a total of 8 half bridges.
 
 This year, I had the following idea: What if you just had one board, with all of your power electronics, on *one board*? And Nine Phase was born.
 
@@ -18,7 +18,7 @@ Nine Phase is three three phase motor controllers, to control 3 brushless motors
 ### Important Parts List: ###
 * [DVR8302][dvr] - Gate Driver
 * Arduino Pro Mini - Logic 
-* PSMN7R0-100PS 100V 100A 6.8 mOhm 
+* PSMN7R0-100PS 100V 100A 6.8 mOhm MOSFET
 
 The [DVR8302][dvr] is a beautiful chip. It features a current sense amplifier, automatic overcurrent shutoff, a buck converter (on a completely separate die within the chip!) and low side PWM generation. 
 Because it's so complex, was a pain to work with. It's difficult to debug, hard to solder correctly without a microscope, and sometimes just exhibits off behavior due to current protection. It's worth the extra hassle in having a compact driver and the possibility of a fairly advanced controller.

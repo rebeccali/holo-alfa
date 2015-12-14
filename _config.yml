@@ -42,23 +42,23 @@ footer-text: This work is licensed under a <a rel="license" href="http://creativ
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+theme-color-attr: "#1C3848"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#00f0ff"
+ms-tile-color: "#1C3848"
 
 # Color used throughout the theme. Format: R, G, B.
 theme-color: 207, 80, 0 # Original: 207, 80, 0
 
 # Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
+text-color: 255, 255, 255 # Original: 255, 255, 255
 
 # Background color used throughout the theme. Format: R, G, B.
 # Note: if you change the background color AND you use cover images, you should
 #       also change the CSS gradient in "_includes\gradient.css" to match the
 #       background color. Edit and copy it from here:
 #       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 255, 255, 255 # Original: 255, 255, 255
+background-color: 28, 56, 72 # Original: 28, 56, 72
 
 display-author-post-page: false
 display-author-front-page: false
