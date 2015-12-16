@@ -4,8 +4,13 @@ cover-image: landon-anvita-2015-nym.jpg
 tags: [projects]
 ---
 
-The summer comes with wonderful joys. Ice cream, air conditioning, free time, and go-karts. Last summer I played pit crew for [Charles Guan's Chibi Mikuvan](http://www.etotheipiplusone.net/?cat=112). 
-![picture of chibimikuvan here]({{ site.baseurl }}/img/chibi-on-van.jpg) <small>Chibi Mikuvan: the most Adorable little van, on top of it's muse. Source: www.etotheipiplusone.net</small>
+The summer comes with wonderful joys. Ice cream, air conditioning, free time, and go-karts. Last summer I played pit crew for [Charles Guan's Chibi Mikuvan](http://www.etotheipiplusone.net/?cat=112).
+
+It was a super fun trip, going out to Detroit, seeing all of the Makerfaire shenanigans, and also seeing Charles' great work in turning hobby RC parts into a fearsome go-kart.
+
+He and many other MITERSans do a great job of re-purposing batteries, power tools, junk, anything into a work of art. 
+
+![picture of chibimikuvan here]({{ site.baseurl }}/img/chibi-on-van.jpg) <small>Chibi Mikuvan: the most Adorable little van, on top of its mothership. Source: www.etotheipiplusone.net</small>
 
 It was so adorable and so fast that it made me want to make my own. The competition, [PowerWheels Racing][ppprs] dictates a few rules:
 
@@ -16,7 +21,7 @@ It was so adorable and so fast that it made me want to make my own. The competit
 ### The Mechanical Monster: Frozen Chainsaw Massacre ###
 With these in mind, and a few friends, over the summer we constructed a monstrosity made out of Ryobi Chainsaws and steel tube left over in [D-Lab][dlab]. The end result was **Frozen Chainsaw Massacre (FCM)**. We ended up making the majority of the cart out of steel tube, with the front knuckles and back chainsaw mounts out of 1/4" mild steel plate. The 1/4" plate ended up being a huge problem for the go-kart. Bent steering and bent chainsaw mounts were our most dire problems when we raced at MakerFaire New York. The other major flaw of the mechanical system was using a 12-tooth 5mm HTD pulley. This pulley had only enough material on the inside to fit over the motor with 2mm to spare and set screw through. In the end, we ended up building up the pulley with weld so there would actually be enough area to set screw. A lack of idler and poor chainsaw mounting also led to de-tensioning of the belt being a frequent occurrence. 
 
-![Cad model]({{ site.baseurl }}/img/fcm-cad.jpg) <small>Barely enough CAD is still barely enough</small>
+![Cad model]({{ site.baseurl }}/img/fcm-cad.JPG) <small>Barely enough CAD is still barely enough</small>
 
 The happy part of FCM was that it had kingpin and ackerman steering correction, making the cart steer properly. It also had the added feature of being incredibly hard to turn, because of the cart's natural drift towards center. We briefly considered adding powered steering. 
 
