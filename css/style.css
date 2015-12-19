@@ -86,7 +86,7 @@ li * {
   line-height: 1em; /* Bold font line-height fix */
 }
 img {
-  max-width: 800px;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -97,6 +97,11 @@ img {
 .img-only-source {
   margin: 0 -15px;
   text-align: center;
+}
+a.fancybox>img{
+  
+  padding-top:30px;
+  padding-bottom:30px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Play", Verdana, sans-serif;
