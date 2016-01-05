@@ -133,9 +133,10 @@ var_your_message: Your message
 # You don't have to change these.
 
 exclude: [vendor]
-highlighter: null
+highlighter: rouge
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 paginate_path: "/page-:num/"
 permalink: pretty
 defaults:
