@@ -7,12 +7,13 @@
     {% endif %}
 </head>
 <body>
+	<canvas class="snake" id="stage" height="400" width="520" style="display:none;"></canvas>
 	{% if page.cover-image %}
 	<div class="cover-image-container">
 		<img alt="Cover image" src="{{ site.baseurl }}/img/covers/{{ page.cover-image }}">
 	</div>
 	{% endif %}
-	<div class="wrap">
+	<div class="wrap" id="wrap1">
 		{% include header.html %}
 		{{ content }}
 	  <script>

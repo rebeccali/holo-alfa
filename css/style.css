@@ -517,3 +517,13 @@ nav a.current {
     margin-bottom: 0;
   }
 }
+
+/*-------------------------
+Snake
+----*/
+canvas.snake {
+  position: fixed;
+  margin: 0 auto;
+  left: 0;
+  right:0;
+}
