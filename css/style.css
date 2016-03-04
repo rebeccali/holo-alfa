@@ -28,7 +28,7 @@ body {
   background-color: rgb({{ site.background-color }});
   /*background-repeat: no-repeat;
   background-size: 100%;*/
-  background-image: url("http://www.transparenttextures.com/patterns/triangles.png");
+  /*background-image: url("http://www.transparenttextures.com/patterns/triangles.png");*/
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 html, body {
@@ -379,7 +379,7 @@ footer .inner {
   background-image: none;
   text-decoration: none !important;
   color: rgba({{ site.theme-color }}, 1);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);
+  /*text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.51);*/
   /*color: rgba({{ site.text-color }}, .76);*/
 
 }

@@ -1,11 +1,11 @@
 ---
-title: Thoughts
+title: Robots
 layout: page
 ---
 
 {%assign empty_category = true %}
 {% for post in site.posts %}
-  {%if post.tags contains "thoughts" %}
+  {%if post.tags contains "robot-bio" %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
@@ -22,7 +22,7 @@ layout: page
 {% endfor %}
 {% if empty_category %}
     <h3>
-        It seems that there are no articles on that category,
+        It seems that there are no robots,
         please go back <a href="/">home</a> to see the full list of articles.
     </h3>
 {% endif %}

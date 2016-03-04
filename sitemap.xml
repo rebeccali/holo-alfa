@@ -7,6 +7,11 @@
         <loc>{{ site.url }}{{ site.baseurl }}{{ post.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}
+    {% for robot in site.robots %}
+    <url>
+        <loc>{{ site.url }}{{ site.baseurl }}{{ robot.url | remove: 'index.html' }}</loc>
+    </url>
+    {% endfor %}
 
     {% for page in site.pages %}
     {% if page.layout != nil %}

@@ -1,25 +1,25 @@
 
 # The name of your website.
-name: Rebecca Li
+name: MIT Combat Robotics Club
 description:
 
   # Description of your site. This will show up in google.
-  meta: Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
+  meta: MIT Combat Robotics Club is dedicated to fighting robots and destruction.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Rebecca's personal thought dump, project bank, and art haus.
+  subtitle: A club dedicated to destruction
 
 author:
-  name: Rebecca Li # Change this!
+  name: MIT Combat Robotics Club # Change this!
 
   # Necessary for contact page
-  email: rebecca@mit.edu # Change this!
+  email: mit-crc-exec@mit.edu # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://rebecca.li/
+url: http://rmli.scripts.mit.edu/mit-crc
 baseurl: ""
 
 # language attribute in <html> element.
@@ -33,32 +33,32 @@ lang: en
 
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
-show-subtitle: true
-display-social-icons: true 
+show-subtitle: false
+display-social-icons: false
 
-footer-text: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: This work is licensed under the MIT license.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#1C3848"
+theme-color-attr: "#e30000"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#1C3848"
+ms-tile-color: "#e3e3e3"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 207, 80, 0 # Original: 207, 80, 0
+theme-color: 10, 10, 10 # Original: 249, 105, 15
 
 # Text color used throughout the theme. Format: R, G, B.
-text-color: 255, 255, 255 # Original: 255, 255, 255
+text-color: 10, 10, 10 # Original: 255, 255, 255
 
 # Background color used throughout the theme. Format: R, G, B.
 # Note: if you change the background color AND you use cover images, you should
 #       also change the CSS gradient in "_includes\gradient.css" to match the
 #       background color. Edit and copy it from here:
 #       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 28, 56, 72 # Original: 28, 56, 72
+background-color: 244, 244, 244 # Original: 244, 244, 244
 
 display-author-post-page: false
 display-author-front-page: false
@@ -96,7 +96,7 @@ reddit:
 soundcloud:
 medium:
 linkedin:
-github: https://github.com/rebeccali
+github: 
 behance:
 codepen:
 dribbble:
