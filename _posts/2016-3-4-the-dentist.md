@@ -1,10 +1,14 @@
 ---
-title: The Dentist
+title: Announcing the Dentist
 cover-image: 
-tags: [robot, dentist, battlebots, robot-bio]
+tags: [robot, dentist, battlebots, robot-bio, log]
 ---
 
-More details on the Dentist to come!
+This is the moment of birth onto the world stage for our robot, the Dentist. This website will be used for documenting the creation of our robot, the Dentist!
+
+Our robot has a large steel drum spun by a Toyota Prius Motor. The aim of our robot is to reach 200 kJ of energy storage, making us the highest energy robot on the field. In the upcoming weeks, stay tuned to see the results of our hard work on our path to the win!
+
+![The Dentist Robot Conceptuall](/img/crc/dentist.jpg)
 
 
 [anchorcms]:   https://anchorcms.com/

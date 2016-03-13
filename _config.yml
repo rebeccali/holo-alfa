@@ -19,8 +19,8 @@ author:
   # want it.
   info:
 
-url: http://rmli.scripts.mit.edu/mit-crc
-baseurl: ""
+url: http://rmli.scripts.mit.edu/mit-crc/
+baseurl: "http://rmli.scripts.mit.edu/mit-crc/"
 
 # language attribute in <html> element.
 lang: en

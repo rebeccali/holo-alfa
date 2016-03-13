@@ -1,11 +1,11 @@
 ---
-title: Robots
+title: Build Log
 layout: page
 ---
 
 {%assign empty_category = true %}
 {% for post in site.posts %}
-  {%if post.tags contains "robot-bio" %}
+  {%if post.tags contains "log" %}
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>
     {% else %}
