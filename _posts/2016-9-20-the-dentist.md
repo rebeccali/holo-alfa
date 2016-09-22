@@ -1,18 +1,18 @@
 ---
 title: The Dentist - My Foray into combat robots, terrible timelines and extremely large extra curriculars
-cover-image: 
+cover-image: battlebots-logo.jpg
 tags: [projects]
 ---
 
-This is more of a reflective post, for the build report of the DENTIST, the battlebot my team built, please go [here][thedentist]. 
+### This is more of a reflective post, for the build report of the DENTIST, the battlebot my team built, please go [here][thedentist]. ###
 
-TThis past semester at MIT was a tough one for one major reason. Back in September, my friend and mentor [Charles Guan][charles], who had previously competed on BattleBots Season 1, convinced me and a gang of students to build a 250lb BattleBot for the second season. If you watched the show over the summer, of 2015 you got to see unfiltered robot destruction MMA style complete with hot announcer and burly bros. It was a good show, looked fun, and a small bit of me wanted to be on TV, which is why I decided to compete. I ended up as team captain and worked on mechanical design. The rest of the team consisted of the following MIT students: Landon Carter (CS and ME '17), Bayley Wang, Michael DeTienne (EE, '17), Daniel Gonzalez(ME, '14, PhD student), Austin Brown (ME, '18), Daniel Kramnik (EE, '16) Tyler Hamer (ME, '14, PhD Student). We built the majority of the robot in the Edgerton Center at MIT.
+This past semester at MIT was a tough one for one major reason. Back in September, my friend and mentor [Charles Guan][charles], who had previously competed on BattleBots Season 1, convinced me and a gang of students to build a 250lb BattleBot for the second season. If you watched the show over the summer, of 2015 you got to see unfiltered robot destruction MMA style complete with hot announcer and burly bros. It was a good show, looked fun, and a small bit of me wanted to be on TV, which is why I decided to compete. I ended up as team captain and worked on mechanical design. The rest of the team consisted of the following MIT students: Landon Carter (CS and ME '17), [Bayley Wang][bayley], Michael DeTienne (EE, '17), Daniel Gonzalez(ME, '14, PhD student), Austin Brown (ME, '18), Daniel Kramnik (EE, '16) Tyler Hamer (ME, '14, PhD Student). We built the majority of the robot in the Edgerton Center at MIT.
 
 The inspiration for the robot was to build a traditional drum spinner for as much kinetic energy as we could muster, ideally at least 2 Tombstone's worth, or 200kJ. For those of you who don't watch the show, Tombstone is the traditional favorite with a dead simple spinning bar of doom. We wanted to wreck him. Furthermore, a friend of ours, Nick Kirkby, had managed to turn on a Prius Inverter and we were excited to use a Prius inverter and one of its motors in our weapon for a truly terrifying robot.
 
 If you want the long version of on how our robot was built, you can [visit the build log of it through this link][thedentist]. The short version is that the robot went through a ton of design changes, and we ended up building the whole thing in 12 days with a different weapon motor.. If you haven't built robots before, 12 days is an extremely short period of time to build a robot from scratch that works. Because of that, and some motor controller issues, we ended up not competing due to safety concerns. In the end though, we did have some sort of robot, which got stripped of a lot of its armor due to being excessively overweight, which you can see below.
 
-![picture of car here]({{ site.baseurl }}/img/)
+![picture of car here]({{ site.baseurl }}/img/dentist/dentist.jpg)
 
 ### The Stats ###
 * The Frame: Welded mild steel tube (1/8" to 1/16") with a sprinkling of AR500 and titanium
@@ -51,4 +51,5 @@ Tune in to the season finale this Thursday, on ABC!
 [bayley]:      http://isopack.blogspot.com
 [ninephase]:   https://github.com/rebeccali/ninephase
 [charles]:     http://www.etotheipiplusone.com/
-[thedentist]:  jdlkjlkfds
+[thedentist]:  https://www.facebook.com/thedentistbattlebot/
+[bayley]:      https://isopack.blogspot.com/
