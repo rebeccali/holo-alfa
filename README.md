@@ -1,5 +1,15 @@
 # Holo Alfa Jekyll theme [![Build Status](https://travis-ci.org/steinvc/holo-alfa.svg?branch=master)](https://travis-ci.org/steinvc/holo-alfa) #
 
+TO SELF:
+
+# How to serve and deploy #
+
+Things you need to install are ruby, bundler, and jekyll.
+
+To work locally, go to the holo-alfa folder and run "bundle exec jekyll serve" which will serve to localhost:4000. In _config.yml, url must be ""
+
+To deploy, deploy to the rebeccali.github.io repository by first changing url in _config.yml to http://rebecca.li/. Then run "bundle exec jekyll build --destination ../rebeccali.github.io" then push to the internet. 
+
 ![Screenshot](http://i.imgur.com/Gi46aag.jpg)
 
 Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. Created for free and fun by Stijn.
