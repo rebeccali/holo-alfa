@@ -7,7 +7,7 @@ description:
   meta: Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Rebecca's personal thought dump, project bank, and art haus.
+  subtitle: Rebecca's personal thought dump.
 
 author:
   name: Rebecca Li # Change this!
@@ -34,7 +34,7 @@ lang: en
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
-display-social-icons: true 
+display-social-icons: false 
 
 footer-text: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
@@ -48,7 +48,7 @@ theme-color-attr: "#1C3848"
 ms-tile-color: "#1C3848"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 207, 80, 0 # Original: 207, 80, 0
+theme-color: 255, 150, 84 # Original: 207, 80, 0
 
 # Text color used throughout the theme. Format: R, G, B.
 text-color: 255, 255, 255 # Original: 255, 255, 255
@@ -58,7 +58,7 @@ text-color: 255, 255, 255 # Original: 255, 255, 255
 #       also change the CSS gradient in "_includes\gradient.css" to match the
 #       background color. Edit and copy it from here:
 #       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 28, 56, 72 # Original: 28, 56, 72
+background-color: 17, 35, 45 # Original: 28, 56, 72
 
 display-author-post-page: false
 display-author-front-page: false

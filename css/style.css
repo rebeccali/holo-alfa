@@ -300,6 +300,7 @@ a.read-more {
   background-image: none;
   text-decoration: none !important;
   font-weight: 600;
+  margin-top:1em;
 }
 input[type="email"],
 textarea {
@@ -472,7 +473,7 @@ nav a.current {
   }
   h3, h4, h5, h6 {
     font-size: 1.2em;
-    margin-top: 60px;
+    margin-top: .5em;
     margin-bottom: -10px;
   }
   .img-only {
@@ -509,7 +510,7 @@ nav a.current {
 }
 @media all and (min-width: 760px) {
   h1 {
-    font-size: 2.9em;
+    font-size: 2em;
   }
   article:last-of-type::after {
     content: "";
