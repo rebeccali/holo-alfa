@@ -1,13 +1,13 @@
 
 # The name of your website.
-name: Rebecca Li
+name: REBECCA LI
 description:
 
   # Description of your site. This will show up in google.
   meta: Rebecca Li is an undergraduate in Mechanical Engineering and Robotics at MIT.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Rebecca's personal thought dump.
+  subtitle: Rebecca's thought dump.
 
 author:
   name: Rebecca Li # Change this!
@@ -30,6 +30,7 @@ lang: en
 ##############
 # APPEREANCE #
 ##############
+theme: minimal-mistakes-jekyll
 
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
@@ -48,17 +49,19 @@ theme-color-attr: "#1C3848"
 ms-tile-color: "#1C3848"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 255, 150, 84 # Original: 207, 80, 0
+theme-color: 104, 116, 171 # Original: 207, 80, 0
 
 # Text color used throughout the theme. Format: R, G, B.
-text-color: 255, 255, 255 # Original: 255, 255, 255
+text-color: 63, 63, 66 # Original: 255, 255, 255
 
 # Background color used throughout the theme. Format: R, G, B.
 # Note: if you change the background color AND you use cover images, you should
 #       also change the CSS gradient in "_includes\gradient.css" to match the
 #       background color. Edit and copy it from here:
 #       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
-background-color: 17, 35, 45 # Original: 28, 56, 72
+background-color: 255,255,255 # Original: 28, 56, 72
+
+headfont: "Montserrat Subrayada"
 
 display-author-post-page: false
 display-author-front-page: false
