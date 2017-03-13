@@ -2,6 +2,7 @@
 title: The Dentist - My Foray into combat robots, terrible timelines and extremely large extra curriculars
 cover-image: battlebots-logo.jpg
 tags: [projects]
+summary: This is more of a reflective post about my experience, not necessarily a build report.
 ---
 
 ### This is more of a reflective post, for the build report of the DENTIST, the battlebot my team built, please go [here][thedentist]. ###

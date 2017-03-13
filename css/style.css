@@ -482,10 +482,10 @@ nav a.current {
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: .5em;
     margin-bottom: -10px;
-    font-weight:100;
+    font-weight:800;
   }
   .img-only {
     margin: 0 -30px;
